@@ -53,7 +53,7 @@ A cache replacement policy is a strategy used to decide which data should be rem
 |Eviction | O(n) | O(1) | O(n) | O(LogN) | O(1) | O(LogN) |
 
 <br>
-
+[reference](https://stackoverflow.com/a/69716455)
 <details>
 <summary>
 Application of caching
