@@ -14,34 +14,34 @@ What is caching and why is it used ?
 </summary>
 Caching is a technique used to improve the performance of a system by storing the frequently used data in a cache. The cache is a temporary storage area which is used to store the frequently used data. The data stored in the cache is retrieved from the cache instead of the main memory. This reduces the time required to access the data and improves the performance of the system.
 </details>
-<br>
+
 <details>
 <summary>
 What is a cache miss ?
 </summary>
 A cache miss occurs when the data is not present in the cache. The data is retrieved from the main memory and stored in the cache. This increases the time required to access the data and reduces the performance of the system.
 </details>
-<br>
+
 <details>
 <summary>
 What is a cache hit ?
 </summary>
 A cache hit occurs when the data is present in the cache. The data is retrieved from the cache. This reduces the time required to access the data and improves the performance of the system.
 </details>
-<br>
+
 <details>
 <summary>What is a cache eviction ?</summary>
 
 A cache eviction occurs when the data is removed from the cache. The data is removed from the cache to make space for the new data. This increases the time required to access the data and reduces the performance of the system.
 
 </details>
-<br>
+
 <details>
 <summary>What is a cache replacement policy ?</summary>
 A cache replacement policy is a strategy used to decide which data should be removed from the cache when the cache is full. The data is removed from the cache to make space for the new data. This increases the time required to access the data and reduces the performance of the system.
 </details>
 
-<br>
+
 
  ### Comparison 
 <br>
@@ -52,8 +52,8 @@ A cache replacement policy is a strategy used to decide which data should be rem
 | Finding entry by name | O(n) | O(n) | O(1) | O(logN) | O(1) | O(1) |
 |Eviction | O(n) | O(1) | O(n) | O(LogN) | O(1) | O(LogN) |
 
-<br>
-[reference](https://stackoverflow.com/a/69716455)
+[*Reference](https://stackoverflow.com/a/69716455)
+
 <details>
 <summary>
 Application of caching
@@ -67,7 +67,7 @@ Caching is used in the following applications:
 * LFU is used in keyboards
 
 </details>
-<br>
+
 <details>
 <summary>
 Disadvantages
